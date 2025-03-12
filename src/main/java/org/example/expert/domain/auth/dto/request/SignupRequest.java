@@ -17,4 +17,10 @@ public class SignupRequest {
     private String password;
     @NotBlank
     private String userRole;
+    @NotBlank
+    private String nickname;
+
+    public String getNickname() {
+        return nickname;
+    }
 }
